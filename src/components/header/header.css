@@ -1,0 +1,35 @@
+.nav-container{
+    display: flex;
+    border-bottom: 1px solid #888;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #000;
+}
+
+.nav-item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item-container div{
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 10px 15px;
+
+
+}
+.nav-container div a {
+    text-decoration: none;
+    color:#696969;
+    transition:all 0.3s;
+}
+.nav-container div a:hover {
+    color:#fff;
+}
+.logo{
+    margin:auto 0;
+    font-size: 29px;
+}
