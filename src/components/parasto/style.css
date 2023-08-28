@@ -1,0 +1,153 @@
+.navbar{
+    background-color: #2b2d42;
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.login-btn{
+background-color: #63689c;
+width: 200px;
+border: none;
+font-size: 18px;
+padding: 7px 10px ;
+margin-left: 10px;
+border-radius: 5px;
+color: #fff;
+transition: all 0.4s;
+}
+.login-btn:hover{
+    background-color: #545884;
+    cursor: pointer;
+}
+table{
+    text-align: center;
+}
+th, td{
+    border:1px solid rgb(255, 255, 255);
+    padding: 10px 15px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+.leftcontainer{
+    flex-direction: column;
+    padding: 0 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+form input{
+    padding: 10px 5px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.leftcontainer form button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+}
+.leftcontainer form button:hover{
+    cursor: pointer;
+    background-color: rgb(124, 255, 211);
+}
+
+.rightcontainer{
+    padding: 0 30px;
+    background: url("./img/maryammirzakhani.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+h3{
+margin-bottom: 30px;
+}
+
+.userimage-dashboard{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.username-dashboard{
+    color: #00ffdd;
+}
+
+.img-details-container{
+    display: flex;
+}
+.img-details-container div {
+    margin:0 10px
+}
+.details-info{
+    width: 400px;
+    padding: 10px 15px;
+    color:#fff;
+    font-size: 18px;
+}
+
+.details-info div{
+    margin: 10px 0;
+}
+.img-details{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.del-btn{
+    background-color: #cb0000;
+    width: 100px;
+    border: none;
+    padding: 7px 10px ;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.4s;
+}
+.del-btn:hover{
+    background-color: #e60a0a;
+    cursor: pointer;
+}
+.img-toggle{
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    top: 0;
+    right: auto;
+    left: 50%;
+}
+
+.rightcontainer-op{
+    opacity: 0.2;
+}
